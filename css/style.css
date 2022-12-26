@@ -625,6 +625,8 @@ img {
     bottom: 0;
     background: transparent;
     transition: background .3s ease-in;
+    -webkit-overflow-scrolling: auto;
+    overflow-y: scroll;
 }
 
 .modal {
