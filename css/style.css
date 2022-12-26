@@ -628,6 +628,7 @@ img {
     -webkit-overflow-scrolling: auto;
     overflow-y: scroll;
     -webkit-transform: translate3d(0, 0, 0);
+    will-change: scroll-position;
 }
 
 .modal {
@@ -643,7 +644,7 @@ img {
     transition: all .3s ease-out;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    scroll-behavior: smooth;
+    will-change: scroll-position;
 }
 
 
