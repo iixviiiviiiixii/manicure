@@ -78,6 +78,12 @@ document.addEventListener('click', event => {
                         </div>
                     </div>
                     <div class="modal-footer">
+                        <div class="address">
+                            <div class="modal-title">Адрес</div>
+                            <div class="address-wrapper">
+                                ${cardId.address}
+                            </div>    
+                        </div>
                         <div class="portfolio">
                             <div class="modal-title">Галерея</div>
                             ${cardId.portfolio}

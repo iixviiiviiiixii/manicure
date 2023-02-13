@@ -2,7 +2,7 @@ function _createModal(options) {
     const modal = document.createElement('div')
     modal.classList.add('modal-wrapper')
     modal.insertAdjacentHTML('afterbegin', `
-    <div class="modal-overlay" data-close="true">        
+    <div onclick="myfunc()" class="modal-overlay" data-close="true">        
         <div class="modal" id="modalScrll0" data-content>
             
         </div> 
@@ -15,7 +15,7 @@ function _createModal(options) {
 
 
 $.modal = function (options) {
-    const ANIMATION_SPEED = 300
+    const ANIMATION_SPEED = 200
     const $modal = _createModal(options)
     let closing = false
     let destroyed = false
